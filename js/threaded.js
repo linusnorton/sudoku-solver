@@ -2,7 +2,7 @@
 const readline = require("readline");
 const { Worker } = require("worker_threads");
 // const numCPUs = require("os").cpus().length;
-const numCPUs = 8;
+const numCPUs = 12;
 const lines = readline.createInterface({
   input: process.stdin
 });
